@@ -1,0 +1,10 @@
+metros = float(input("Digite o tamanho em metros quadrados da área a ser pintada: "))
+
+litros = metros / 6
+print("A quantidade de litros necessária é ", litros)
+
+latas = litros/3.6
+print("A quantidade de lata para comprar é ", latas)
+
+preco_total = latas * 25
+print("O valor total é: R$ " , preco_total)
